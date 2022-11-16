@@ -3,3 +3,7 @@
 {% else %}
   {% assign base_path = site.github.url %}
 {% endif %}
+
+{% if site.author %}
+  {% assign author = site.author %}
+{% endif %}

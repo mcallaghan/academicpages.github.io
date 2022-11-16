@@ -11,49 +11,63 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in English Literature, University of York, 2011
+* MPP in Public Policy, Hertie Schoool of Governance, 2016
+* Ph.D in Earth and Environmental Science, University of Leeds, 2022
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021--present: Postdoctoral Researcher
+  * Mercator Research Institute on Global Commons and Climate Change (MCC), Berlin
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* 2015--2016: Research Assistant
+  * Mercator Research Institute on Global Commons and Climate Change (MCC), Berlin
+
+* 2014--2014: Research Assistant - The Governance Report
+  * Hertie School of Governance, Berlin
+
+* 2014--2015: Junior Research Fellow - Development, Gender and Human Rights
+  * United Nations System Staff College, Turin
+
+* 2013--2013: Junior Consultant
+  * Cadence Partnership, London
+  * Contracted to the Department of the Environment, Food, and Rural Affairs
+
+* 2011--2012: Communications Inter
+  * Release, London
+
+* 2011--2012: Teacher
+  * The English School of Mongolia, Ulaanbaator
+
+
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ol>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ol>
+
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ol>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ol>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ol>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}</ol>
+
+Service
 ======
-* Currently signed in to 43 different slack teams
+* I have provided reviews for *Nature Climate Change*, *Nature Sustainability*, *Energy Research & Social Science*, *Environmental Research Letters*, *Climatic Change*, *Regional Environmental Change*, *Research Synthesis Methods*, *The Journal of Hydrology*, and the *Journal of the American Medical Informatic Association*.
+* I was a contributing author in [Chapter 9](https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter09.pdf) of Working Group II's contribution to the sixth assessment report of the Intergovernmental Panel on Climate Change.
