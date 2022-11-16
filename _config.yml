@@ -11,9 +11,9 @@ title                    : "Dr. Max Callaghan"
 title_separator          : "-"
 name                     : &name "Dr. Max Callaghan"
 description              : &description "Researcher at the Mercator Research Institute on Global Commons and Climate Change"
-url                      : "https://academicpages.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://mcallaghan.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mcallaghan/academicpages.github.io"
+repository               : "mcallaghan/mcallaghan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
