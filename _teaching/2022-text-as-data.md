@@ -8,4 +8,4 @@ date: 2022-09-01
 location: "Berlin, Germany"
 ---
 
-In the autumn of 2022 I will be teaching "Text as Data" at the Hertie School of Governance.
+In the autumn of 2022 and 2023 I taught "Text as Data" at the Hertie School of Governance.
