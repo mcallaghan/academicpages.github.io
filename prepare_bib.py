@@ -51,7 +51,6 @@ with open("_cv/nocite.tex", "w") as ncf:
         for k,v in entries[i].fields_dict.items():
             e[k] = v.value
 
-        print(e)
         e["title"] = e["title"].replace("{","").replace("}","")
         fname = f"_publications/{n:03d}.md"
         authors = e["author"].split(" and ")
@@ -62,5 +61,5 @@ with open("_cv/nocite.tex", "w") as ncf:
         e["author"] = LatexNodes2Text().latex_to_text(e["author"])
         ncf.write(r"\nocite{" + entries[i].key + "}")
         ncf.write("\n")
-    with open(fname, "w") as f:
-        f.write(template.render({"e":e, "i": n}))
+        with open(fname, "w") as f:
+            f.write(template.render({"e":e, "i": n}))
